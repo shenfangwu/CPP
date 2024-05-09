@@ -28,3 +28,7 @@
 *.filters
 *.user
 /CppPrimer/1_Start/1-1/1-1.sln
+/CppPrimer/1_Start/1-1/x64/Debug/1-2.exe
+*.exe
+/CppPrimer/1_Start/1-4/x64/Debug/1-4.tlog/link.write.1.tlog
+/CppPrimer/1_Start/1-4/x64/Debug/1-4.tlog
