@@ -1,0 +1,21 @@
+﻿################################################################################
+# 此 .gitignore 文件已由 Microsoft(R) Visual Studio 自动创建。
+################################################################################
+
+/CppPrimer/1_Start/x64/Debug
+/CppPrimer/1_Start/1_Start/x64/Debug/1_Start.tlog
+*.recipe
+*.ilk
+*.log
+*.obj
+*.idb
+*.pdb
+/CppPrimer/1_Start/1_Start/1_Start.vcxproj
+/CppPrimer/1_Start/1_Start/1_Start.vcxproj.filters
+/CppPrimer/1_Start/1_Start/1_Start.vcxproj.user
+/CppPrimer/1_Start/.vs/1_Start
+/CppPrimer/1_Start/1_Start.sln
+/CppPrimer/.vs/CppPrimer/FileContentIndex
+*.json
+/CppPrimer/.vs/slnx.sqlite
+/CppPrimer/.vs/CppPrimer/v17
