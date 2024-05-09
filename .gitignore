@@ -32,3 +32,6 @@
 *.exe
 /CppPrimer/1_Start/1-4/x64/Debug/1-4.tlog/link.write.1.tlog
 /CppPrimer/1_Start/1-4/x64/Debug/1-4.tlog
+/CppPrimer/1_Start/1-5/.vs/1-5
+/CppPrimer/1_Start/1-5/x64/Debug
+*.sln
