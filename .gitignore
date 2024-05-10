@@ -37,3 +37,6 @@
 *.sln
 /CppPrimer/1_Start/1-6/.vs/1-6
 /CppPrimer/1_Start/1-6/x64/Debug
+/leetcode/1-1数组基础知识/.vs/1-1数组基础知识/v17
+/leetcode/1-1数组基础知识/.vs/1-1数组基础知识/FileContentIndex
+/leetcode/1-1数组基础知识/x64/Debug
