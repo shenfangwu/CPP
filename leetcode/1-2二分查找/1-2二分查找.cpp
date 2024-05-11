@@ -23,10 +23,11 @@
 #include <iostream>
 #include <vector>
 using namespace std;
-
+// 关键字： 有序数组、无重复元素
 int search(vector<int>& nums, int target) {
     int len = nums.size() - 1;
     int left = 0, right = len;
+ // 循环不变量，保持左闭右闭原则
     while (left <= right) {
         if (target == nums[(left + right) / 2]) {
             return (left + right) / 2;
