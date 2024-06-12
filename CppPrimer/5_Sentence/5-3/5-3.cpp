@@ -20,7 +20,7 @@ int main()
    
     // 练习5-9 5-10 5-11 5-12
     char ch; char pre = ' ';
-    int vowelCnt = 0;
+    int vowelCnt = 0;// 注意1 尽量不要在switch内部定义变量
     int otherCnt = 0;
     int kongeCnt = 0;
     int zhibiaoCnt = 0;
@@ -29,10 +29,10 @@ int main()
     while(cin>>ch){
         switch (ch)
         {
-        case'a':case'A':case'e':case'E':case'i':case'I':case'o':case'O':case'u':case'U':
+        case'a':case'A':case'e':case'E':case'i':case'I':case'o':case'O':case'u':case'U':// 注意2 case标签连写是不需要break的
             ++vowelCnt;
-            break;
-        case' ':
+            break;// 注意3 不要漏写break
+        case' ':// 注意4 case标签是整形常量表达式
             ++kongeCnt;
             break;
         case'\t':
